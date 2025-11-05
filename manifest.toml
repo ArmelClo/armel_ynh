@@ -6,7 +6,7 @@ name = "Armel"
 description.en = "desc en"
 description.fr = "desc fr"
 
-version = "0.0.1~ynh1"
+version = "0.0.1~ynh2"
 
 maintainers = ["zolkenn"]
 
