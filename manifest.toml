@@ -6,7 +6,7 @@ name = "Armel"
 description.en = "desc en"
 description.fr = "desc fr"
 
-version = "0.0.1~ynh2"
+version = "0.0.2~ynh1"
 
 maintainers = ["zolkenn"]
 
@@ -40,8 +40,8 @@ ram.runtime = "50M"
 
 [resources]
     [resources.sources.main]
-    url = "https://github.com/ArmelClo/armel/archive/refs/tags/0.0.1.tar.gz"
-    sha256 = "09f4a2931e501ccb35630b7f1e361b156fe68d663b4eddf5c5cdcc20ac5b3443"
+    url = "https://github.com/ArmelClo/armel/releases/download/0.0.2/armel"
+    sha256 = "d989c6555f3f11e1790fed76df05a74df79beade422e8594e57514210be904aa"
 
     [resources.system_user]
 
