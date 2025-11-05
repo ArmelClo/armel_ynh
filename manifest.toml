@@ -1,0 +1,52 @@
+#:schema https://raw.githubusercontent.com/YunoHost/apps/master/schemas/manifest.v2.schema.json
+packaging_format = 2
+
+id = "armel"
+name = "Armel"
+description.en = "desc en"
+description.fr = "desc fr"
+
+version = "0.0.1~ynh1"
+
+maintainers = ["zolkenn"]
+
+[upstream]
+license = "GPL-2.0-or-later"
+
+[integration]
+yunohost = ">= 12.1.33"
+helpers_version = "2.1"
+architectures = "all"
+multi_instance = true
+
+ldap = true
+sso = true
+
+disk = "50M"
+ram.build = "50M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    type = "domain"
+
+    [install.path]
+    type = "path"
+    default = "/armel"
+
+    [install.init_main_permission]
+    type = "group"
+    default = "all_users"
+
+[resources]
+    [resources.sources.main]
+    url = "https://github.com/ArmelClo/armel/archive/refs/tags/0.0.1.tar.gz"
+    sha256 = ""
+
+    [resources.system_user]
+
+    [resources.install_dir]
+    group = "www-data:r-x"
+
+    [resources.permissions]
+    main.url = "/"
