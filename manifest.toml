@@ -41,7 +41,7 @@ ram.runtime = "50M"
 [resources]
     [resources.sources.main]
     url = "https://github.com/ArmelClo/armel/releases/download/3.0.0/armel"
-    sha256 = "2e9e231846b0305b80d0149561f44cad1dd0ad52931b3ad847dde4a625bd8ac4"
+    sha256 = "ee32cf72aa3263ea9628fcd2cb72fa0710b946ae0dfe19037f9067382943b42c"
 
     [resources.system_user]
 
