@@ -32,7 +32,7 @@ ram.runtime = "50M"
 
     [install.path]
     type = "path"
-    default = "/armel"
+    default = "/"
 
     [install.init_main_permission]
     type = "group"
@@ -41,7 +41,7 @@ ram.runtime = "50M"
 [resources]
     [resources.sources.main]
     url = "https://github.com/ArmelClo/armel/releases/download/3.0.0/armel"
-    sha256 = "04a8b7f7c01b4d43900bd87c4c87b7d803df00d06b286b36c364b3d222e6e45f"
+    sha256 = "2ed2fba58d3d79395dc93a4deb51934b0f7b16a01ef311cf42de144745a0e4e4"
 
     [resources.system_user]
 
